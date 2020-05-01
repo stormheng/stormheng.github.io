@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>哈哈哈 on 胡西恒的个人博客</title>
+    <link>https://stormheng.github.io/tags/%E5%93%88%E5%93%88%E5%93%88/</link>
+    <description>Recent content in 哈哈哈 on 胡西恒的个人博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 02 May 2019 06:02:56 +0800</lastBuildDate>
+    
+	<atom:link href="https://stormheng.github.io/tags/%E5%93%88%E5%93%88%E5%93%88/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>第三篇博客</title>
+      <link>https://stormheng.github.io/post/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Thu, 02 May 2019 06:02:56 +0800</pubDate>
+      
+      <guid>https://stormheng.github.io/post/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      <description>&lt;p&gt;这是一篇测试功能文章&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
