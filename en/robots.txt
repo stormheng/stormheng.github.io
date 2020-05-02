@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://stormheng.github.io/sitemap.xml
