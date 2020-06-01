@@ -6,19 +6,38 @@
     <description>Recent content on 胡西恒的个人博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 20 Aug 2017 21:38:52 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 10 Dec 2018 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://stormheng.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>简历</title>
+      <title>博客来由</title>
+      <link>https://stormheng.github.io/post/%E9%A6%96%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Mon, 10 Dec 2018 21:03:15 +0800</pubDate>
+      
+      <guid>https://stormheng.github.io/post/%E9%A6%96%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      
+        <description>&lt;p&gt;2018年12月10日，今天是我的生日，这一天我在阿里云上买了属于自己的服务器以及注册了一个域名stormheng.com作为自己的生日的礼物。以前的我是没有文字记录的习惯的，平时写代码遇到问题时都喜欢去网上搜索别人的博客，看看别人解决问题的思路，然后再将文章加入收藏夹，久而久之，收藏的文章越来越多，而且因为随着技术的不断更新迭代，有些问题并不能在一篇文章中得到完整的答案。&lt;/p&gt;
+&lt;p&gt;于是就有了自己尝试着去写一些文字记录自己解决问题的过程，最开始都是将这些文字记录在印象笔记之类的应用上，那个时候有同学问我已经解决过的问题，我都会给他们分享自己的笔记。直到后来有同学给我推荐了简书平台，他说我觉得你写的一些问题解决方法特别通俗移动，你可以将你的笔记分享出去，这样可以让更多的人看到，在短暂的使用过后，我就喜欢上了简书这个平台。&lt;/p&gt;
+&lt;p&gt;仿佛发现新大陆一般，从只是写一长条文字到习惯使用Markdown语法写代码加图文的文章，慢慢的喜欢上了分享自己解决问题的思路。不过后来简书开始嵌入广告和打造社交功能，我是那种喜欢简洁风格的人，而且更多的只是喜欢分享编程相关的知识，于是就诞生了想搭建属于自己的个人博客的想法。平时开始做一些兼职，终于在自己生日这天给自己配置了服务器和域名。&lt;/p&gt;
+&lt;p&gt;我希望自己的博客只是作为一个单纯的写作空间，主题比较简单，也不会有多少功能，只是简简单单的写作分享。后面的日子里会慢慢分享记录自己平时的点点滴滴，博客主题以编程知识为主，偶尔也会发发随想与牢骚。平时也挺喜欢美食与旅行的，说不定哪天也会分享关于旅行游记与美食攻略，不过这个数量不会太多，因为平时更多时间都是在写代码和改bug，哈哈。&lt;/p&gt;
+&lt;p&gt;我希望自己未来会成为一个热衷技术，乐于分享的人，文笔虽然一般，但求未来有人看了文章后能有一种“卧槽，我怎么没想到”这样的感觉，因为我平时看别人博客也会有这样的感觉，哈哈。&lt;/p&gt;
+&lt;p&gt;文章置顶，时刻提醒自己，勿忘初心。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>简介</title>
       <link>https://stormheng.github.io/about/</link>
-      <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
+      <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://stormheng.github.io/about/</guid>
       
         <description>&lt;p&gt;大家好，我叫胡西恒。&lt;/p&gt;
+&lt;p&gt;爱好: 跑步 旅行 编程 烹饪&lt;/p&gt;
+&lt;p&gt;人生信条: 大道行思，取则行远&lt;/p&gt;
 </description>
       
     </item>
