@@ -6,28 +6,9 @@
     <description>Recent content in Tags on 胡西恒的个人博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 02 May 2019 06:02:56 +0800</lastBuildDate>
     
 	<atom:link href="https://stormheng.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>test1</title>
-      <link>https://stormheng.github.io/tags/test1/</link>
-      <pubDate>Thu, 02 May 2019 06:02:56 +0800</pubDate>
-      
-      <guid>https://stormheng.github.io/tags/test1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>哈哈哈</title>
-      <link>https://stormheng.github.io/tags/%E5%93%88%E5%93%88%E5%93%88/</link>
-      <pubDate>Thu, 02 May 2019 06:02:56 +0800</pubDate>
-      
-      <guid>https://stormheng.github.io/tags/%E5%93%88%E5%93%88%E5%93%88/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
