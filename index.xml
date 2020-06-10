@@ -42,5 +42,292 @@
       
     </item>
     
+    <item>
+      <title>HTML常用标签</title>
+      <link>https://stormheng.github.io/post/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</link>
+      <pubDate>Wed, 12 Dec 2018 21:03:15 +0800</pubDate>
+      
+      <guid>https://stormheng.github.io/post/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</guid>
+      
+        <description>&lt;blockquote&gt;
+&lt;p&gt;这篇文章主要介绍平时写代码过程中常用的HTML标签、常用的属性以及它们的使用场景，对于标签的分类我是根据自己平时使用习惯来分类的，所以与标准分类可能有些不同。至于其他标签与属性，可以查阅文末的参考链接。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;文章标签&#34;&gt;文章标签&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;主要包含标题标签、段落标签以及换行标签和分割线标签&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;标题标签&#34;&gt;标题标签&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;h1&amp;gt;-&amp;lt;h6&amp;gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;http://image.stormheng.com/image/image-20200602220132141.png&#34; alt=&#34;图片&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;段落标签&#34;&gt;段落标签&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;用来存放大段文字&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;换行标签&#34;&gt;换行标签&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;单标签，常用来处理文章换行&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;br&amp;gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;分割线标签&#34;&gt;分割线标签&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;单标签，常用来将标题与文章内容分隔开&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;【标签】&amp;lt;hr&amp;gt;
+【属性】
+        size：尺寸，取值单位为 px（像素），可以省略
+        width：宽度，取值单位为px（像素）可以省略或百分比
+        color：颜色，取值自然颜色值
+        align：水平对齐方式，取值：left/center/right
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;文章示例代码&#34;&gt;文章示例代码&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2&lt;/span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;lang&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3&lt;/span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4&lt;/span&gt;	&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;meta&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;charset&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;UTF-8&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5&lt;/span&gt;	&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;&amp;gt;文章&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6&lt;/span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7&lt;/span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8&lt;/span&gt;	&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;h1&lt;/span&gt;&amp;gt;主标题&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;h1&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9&lt;/span&gt;	&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;h2&lt;/span&gt;&amp;gt;副标题&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;h2&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10&lt;/span&gt;	&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;hr&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11&lt;/span&gt;	&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;大段文本大段文本大段文本大段文本大段文本大段文本大段文本大段文本大段文本	&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;br&lt;/span&gt;&amp;gt;	  
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;12&lt;/span&gt;    大段文本大段文本大段文本大段文本大段文本大段文本大段文本&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;br&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;13&lt;/span&gt;	   大段文本大段文本大段文本大段文本大段文本大段文本大段文本&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;14&lt;/span&gt;	&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;大段文本大段文本大段文本大段文本大段文本大段文本&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;15&lt;/span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;16&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;内容标签&#34;&gt;内容标签&lt;/h3&gt;
+&lt;h4 id=&#34;列表标签&#34;&gt;列表标签&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;有序列表：ol+li  默认样式：1. 2. 3.
+无序列表：ul+li  默认样式：实心圆点
+描述列表：dl+dt+dd
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;预格式标签&#34;&gt;预格式标签&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;pre&amp;gt;&amp;lt;/pre&amp;gt;  保留空格换行
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;图像标签&#34;&gt;图像标签&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;单标签&lt;!-- raw HTML omitted --&gt;，常用属性有：alt/height/width/src&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;属性值&lt;/th&gt;
+&lt;th&gt;作用&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;alt&lt;/td&gt;
+&lt;td&gt;文字&lt;/td&gt;
+&lt;td&gt;图片无法展示时用于说明的文字&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;height&lt;/td&gt;
+&lt;td&gt;px&lt;/td&gt;
+&lt;td&gt;定义图片的高度，只写高度则宽度自适应&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;width&lt;/td&gt;
+&lt;td&gt;px&lt;/td&gt;
+&lt;td&gt;定义图片的宽度，只写宽度则高度自适应&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;src&lt;/td&gt;
+&lt;td&gt;图片的地址&lt;/td&gt;
+&lt;td&gt;指定图片来源&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt; 永远不要让图片变形（即同时改变宽度和高度）&lt;/p&gt;
+&lt;h5 id=&#34;与图片相关的事件&#34;&gt;与图片相关的事件&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;事件：onload/onerror
+&lt;ul&gt;
+&lt;li&gt;用于监听图片是否加载成功，加载成功调用onload，不成功调用onerror&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;代码示例&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1&lt;/span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;img&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;dog.png&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;id&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;xxx&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;alt&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;dog&amp;#34;&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2&lt;/span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;script&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3&lt;/span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;xxx&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;onload&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;() {
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4&lt;/span&gt;        &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;图片加载成功&amp;#34;&lt;/span&gt;);
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5&lt;/span&gt;    }
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6&lt;/span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;xxx&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;onerror&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;() {
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7&lt;/span&gt;        &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;图片加载失败&amp;#34;&lt;/span&gt;);
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8&lt;/span&gt;        &lt;span style=&#34;color:#a6e22e&#34;&gt;xxx&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;./404.png&amp;#34;&lt;/span&gt;; &lt;span style=&#34;color:#75715e&#34;&gt;//挽救图片
+&lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    }
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10&lt;/span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;script&lt;/span&gt;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;图片响应式：max-width:100%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;超链接标签&#34;&gt;超链接标签&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;对于a标签，重点需要掌握href取值和target常用值(_self/_blank)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;【href 的取值】
+    网址
+        1.https://google.com
+        2.http://google.com
+        3.//google.com (无协议网址：自动选择http还是https)
+    路径
+        1./a/b/c 以及 a/b/c
+            注意：如果开启了http服务，则在哪里开启服务那里就是根目录
+        2.index.html 以及 ./index.html
+    锚点
+        href=&amp;quot;#xxx&amp;quot;  xxx为元素id
+    伪协议
+        javascript:代码;
+        点击 a 标签执行代码
+        常用空的代码：href=&amp;quot;javascript: ;&amp;quot;
+        如果href=&amp;quot;&amp;quot;，点击a标签时页面会刷新
+        如果href=&amp;quot;#&amp;quot;，点击a标签时页面会自动滚动到顶部
+    mailto:邮箱
+    tel:手机号
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;锚点定位（重点）&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;步骤一：使用相应的id名标注跳转目标的位置
+&amp;lt;h3 id=&amp;quot;two&amp;quot;&amp;gt;目标&amp;lt;/h3&amp;gt;
+步骤二：&amp;lt;a href=&amp;quot;#two&amp;quot;&amp;gt;&amp;lt;/a&amp;gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;表格标签&#34;&gt;表格标签&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;由table标签定义。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;
+【标签】&amp;lt;table&amp;gt;&amp;lt;/table&amp;gt;
+【属性】
+        width ：设置表格的宽度px
+        height：设置表格的高度px
+        align：设置表格的对齐方式，取值: left/center/right
+        border：设置表格边框宽度
+        cellpadding：内边距（单元格边框与内容之间的距离）默认为1px
+        cellspacing：外边距（单元格之间的距离）默认为2px
+        bgcolor：设置表格的背景颜色
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;http://image.stormheng.com/image/image-20200602111916326.png&#34; alt=&#34;一图胜千言&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;table&amp;gt;&amp;lt;/table&amp;gt;中包含的子元素：
+    【标签】&amp;lt;tr&amp;gt;&amp;lt;/tr&amp;gt; （创建表行）
+        【属性】
+            align：该行内容水平对齐方式，取值: left/center/right
+            valign：该行内容的垂直对齐方式，取值: top/middle/bottom
+            bgcolor：设置表格的背景颜色
+    【标签】&amp;lt;td&amp;gt;&amp;lt;/td&amp;gt; （创建单元格）
+        【属性】
+            align：内容水平对齐方式
+            valign：内容垂直对齐方式
+            width ：宽度
+            height ：高度
+    【标签】&amp;lt;caption&amp;gt;&amp;lt;/caption&amp;gt; （表格标题），必须紧随&amp;lt;table&amp;gt;标签
+    【标签】&amp;lt;th&amp;gt;&amp;lt;/th&amp;gt; （列标题）
+        行标题或列标题，字体有加粗的效果，放在tr中
+    【标签】&amp;lt;thead&amp;gt;&amp;lt;/thead&amp;gt; （表头）
+    【标签】&amp;lt;tbody&amp;gt;&amp;lt;/tbody&amp;gt; 表主体）
+    【标签】&amp;lt;tfoot&amp;gt;&amp;lt;/tfoot&amp;gt; （表尾）
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;合并单元格重点&#34;&gt;合并单元格（重点）&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt; 跨行合并：rowspan = &amp;quot;合并单元格的个数&amp;quot;
+
+ 跨列合并：colspan = &amp;quot;合并单元格的个数&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h5 id=&#34;合并单元格三部曲&#34;&gt;合并单元格三部曲&lt;/h5&gt;
+&lt;pre&gt;&lt;code&gt;1.确认跨行还是跨列
+
+2.根据先上后下、先左后右的原则找到目标单元格
+
+3.删除多余的单元格
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;备注&#34;&gt;备注&lt;/h4&gt;
+&lt;p&gt;对于复杂的表格，又将表格分为三部分：题头（thead）、正文(tbody)、脚注(tfoot)，其中thead中必须有tr标签&lt;/p&gt;
+&lt;h4 id=&#34;完整的表格代码&#34;&gt;完整的表格代码&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1&lt;/span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;table&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2&lt;/span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;caption&lt;/span&gt;&amp;gt;标题文本&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;caption&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3&lt;/span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;thead&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4&lt;/span&gt;        &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;tr&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5&lt;/span&gt;            &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;th&lt;/span&gt;&amp;gt;姓名&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;th&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6&lt;/span&gt;            &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;th&lt;/span&gt;&amp;gt;性别&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;th&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7&lt;/span&gt;        &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;tr&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8&lt;/span&gt;    &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;thead&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9&lt;/span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;tbody&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10&lt;/span&gt;        &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;tr&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11&lt;/span&gt;            &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;td&lt;/span&gt;&amp;gt;张三&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;td&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;12&lt;/span&gt;            &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;td&lt;/span&gt;&amp;gt;男&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;td&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;13&lt;/span&gt;        &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;tr&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;14&lt;/span&gt;        &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;tr&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;15&lt;/span&gt;            &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;td&lt;/span&gt;&amp;gt;李四&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;td&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;16&lt;/span&gt;            &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;td&lt;/span&gt;&amp;gt;女&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;td&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;17&lt;/span&gt;        &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;tr&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;18&lt;/span&gt;    &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;tbody&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;19&lt;/span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;tfoot&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;20&lt;/span&gt;        &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;tr&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;21&lt;/span&gt;            &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;td&lt;/span&gt;&amp;gt;统计&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;td&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;22&lt;/span&gt;            &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;td&lt;/span&gt;&amp;gt;分数&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;td&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;23&lt;/span&gt;        &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;tr&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;24&lt;/span&gt;    &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;tfoot&lt;/span&gt;&amp;gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;25&lt;/span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;table&lt;/span&gt;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;表单标签&#34;&gt;表单标签&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;由form标签定义，将用户输入的数据提交给后台。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;【常见属性】
+        action：提交的服务器地址
+        method：表单数据提交的方式，取值： get：明文提交/post：隐式提交
+        name：定义表单名称，JS用到的比较多
+        id： 独一无二的标识
+如：&amp;lt;form action=&amp;quot;url&amp;quot; method=&amp;quot;get/post&amp;quot;&amp;gt; &amp;lt;/form&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;input元素&#34;&gt;input元素&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;【语法】
+    &amp;lt;input type=&amp;quot;text&amp;quot; value=&amp;quot;hhh&amp;quot;&amp;gt; 
+    #value表示显示在文本框中的值，用户输入的时候需要删除
+&lt;/code&gt;&lt;/pre&gt;&lt;pre&gt;&lt;code&gt;【主要属性】
+        type：根据不同的type属性值可以创建各种类型的输入字段
+        value：最终提交给服务器的值
+        name：控件的名称，提供给服务器使用，没有name，控件则无法提交
+        id：唯一标识，只能在当前页面使用，服务器不能用
+        disabled：禁用，不能被提交
+&lt;/code&gt;&lt;/pre&gt;&lt;h6 id=&#34;常用的表单控件&#34;&gt;常用的表单控件&lt;/h6&gt;
+&lt;pre&gt;&lt;code&gt;（1）文本框：&amp;lt;input type=&amp;quot;text&amp;quot;&amp;gt;
+（2）密码框：&amp;lt;input type=&amp;quot;password&amp;quot;&amp;gt;
+    【专有属性】
+        maxlength：限制输入的字符数，取值：数字
+        readonly：设置文本控件只读
+（3）单选按钮：&amp;lt;input type=&amp;quot;radio&amp;quot;&amp;gt;
+（4）复选框：&amp;lt;input type=&amp;quot;checkbox&amp;quot;&amp;gt;
+        【专有属性】
+        checked，设置默认被选中
+（5）提交按钮：&amp;lt;input type=&amp;quot;submit&amp;quot;&amp;gt;
+（6）重置按钮：&amp;lt;input type=&amp;quot;reset&amp;quot;&amp;gt;
+（7）普通按钮：&amp;lt;input type=&amp;quot;button&amp;quot;&amp;gt;
+（8）图片按钮：&amp;lt;input type=&amp;quot;image&amp;quot; src=&amp;quot;&amp;quot;&amp;gt; 
+（9）隐藏域：&amp;lt;input type=&amp;quot;hidden&amp;quot;&amp;gt;
+（10）文件选择框：&amp;lt;input type=&amp;quot;file&amp;quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h5 id=&#34;按钮提交按钮&#34;&gt;按钮（提交按钮）&lt;/h5&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;button&amp;gt;内容&amp;lt;/button&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h5 id=&#34;下拉选择框select-和-option&#34;&gt;下拉选择框select 和 option&lt;/h5&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;section name=&amp;quot;&amp;quot;&amp;gt;
+  &amp;lt;option value=&amp;quot;&amp;quot; selected&amp;gt;&amp;lt;/option&amp;gt;
+&amp;lt;/section&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt; 只要存在selected便表示选中，不管后面的值是什么&lt;/p&gt;
+&lt;h4 id=&#34;label标签理解&#34;&gt;label标签(理解)&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;作用：&lt;/strong&gt; 当我们鼠标点击 label标签里面的文字时， 光标会定位到指定的表单里面&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;第一种用法：&lt;/strong&gt; 用label直接包括input表单(适合单个表单选择)&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;label&amp;gt; 用户名： 
+        &amp;lt;input type=&amp;quot;radio&amp;quot; name=&amp;quot;usename&amp;quot; value=&amp;quot;请输入用户名&amp;quot;&amp;gt;  
+&amp;lt;/label&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;第二种用法：&lt;/strong&gt; for 属性规定 label 与哪个表单元素绑定。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;label for=&amp;quot;sex&amp;quot;&amp;gt;男&amp;lt;/label&amp;gt;
+&amp;lt;input type=&amp;quot;radio&amp;quot; name=&amp;quot;sex&amp;quot;  id=&amp;quot;sex&amp;quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;textarea控件文本域&#34;&gt;textarea控件(文本域)&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;textarea&amp;gt;多行文本输入框&amp;lt;/textarea&amp;gt;
+
+    cols=&amp;quot;每行中的字符数&amp;quot; rows=&amp;quot;显示的行数&amp;quot;
+
+    用resize: none;来控制文本域不能被用户拉伸，避免破坏页面布局
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;全局属性&#34;&gt;全局属性&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;所有标签都具有的属性&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;http://image.stormheng.com/image/image-20200602111949596.png&#34; alt=&#34;image-20200602111949596&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;参考链接&#34;&gt;参考链接&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/HTML5&#34;&gt;HTML5-MDN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
+    
   </channel>
 </rss>

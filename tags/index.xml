@@ -6,10 +6,19 @@
     <description>Recent content in Tags on 胡西恒的个人博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 10 Dec 2018 21:03:15 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 12 Dec 2018 21:03:15 +0800</lastBuildDate>
     
 	<atom:link href="https://stormheng.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>html</title>
+      <link>https://stormheng.github.io/tags/html/</link>
+      <pubDate>Wed, 12 Dec 2018 21:03:15 +0800</pubDate>
+      
+      <guid>https://stormheng.github.io/tags/html/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>随记</title>

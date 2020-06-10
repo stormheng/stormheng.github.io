@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="zh-cn" itemscope itemtype="http://schema.org/WebPage">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>HTML常用标签 - 胡西恒的个人博客</title>
+  
+
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta name="MobileOptimized" content="width"/>
+<meta name="HandheldFriendly" content="true"/>
+
+
+<meta name="applicable-device" content="pc,mobile">
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="author" content="胡西恒" />
+  <meta name="description" content="这篇文章主要介绍平时写代码过程中常用的HTML标签、常用的属性以及它们的使用场景，对于标签的分类我是根据自己平时使用习惯来分类的，所以与标准" />
+
+  <meta name="keywords" content="胡西恒, stormheng, jane" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.69.2" />
+
+
+<link rel="canonical" href="https://stormheng.github.io/post/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/" />
+
+
+
+
+
+<link rel="icon" href="/favicon.ico" />
+
+
+
+
+
+
+
+
+<link href="https://cdn.bootcss.com/highlight.js/9.12.0/styles/monokai.min.css" rel="stylesheet">
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/sass/jane.min.af20b78e95c84de86b00a0242a4a77bd2601700e1b250edf27537d957ac0041d.css" integrity="sha256-ryC3jpXITehrAKAkKkp3vSYBcA4bJQ7fJ1N9lXrABB0=" media="screen" crossorigin="anonymous">
+
+
+
+
+
+<meta property="og:title" content="HTML常用标签" />
+<meta property="og:description" content="这篇文章主要介绍平时写代码过程中常用的HTML标签、常用的属性以及它们的使用场景，对于标签的分类我是根据自己平时使用习惯来分类的，所以与标准" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://stormheng.github.io/post/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/" />
+<meta property="article:published_time" content="2018-12-12T21:03:15+08:00" />
+<meta property="article:modified_time" content="2018-12-12T21:03:15+08:00" />
+<meta itemprop="name" content="HTML常用标签">
+<meta itemprop="description" content="这篇文章主要介绍平时写代码过程中常用的HTML标签、常用的属性以及它们的使用场景，对于标签的分类我是根据自己平时使用习惯来分类的，所以与标准">
+<meta itemprop="datePublished" content="2018-12-12T21:03:15&#43;08:00" />
+<meta itemprop="dateModified" content="2018-12-12T21:03:15&#43;08:00" />
+<meta itemprop="wordCount" content="3379">
+
+
+
+<meta itemprop="keywords" content="html," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="HTML常用标签"/>
+<meta name="twitter:description" content="这篇文章主要介绍平时写代码过程中常用的HTML标签、常用的属性以及它们的使用场景，对于标签的分类我是根据自己平时使用习惯来分类的，所以与标准"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+
+
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+    <div class="mobile-header-logo">
+        <a href="/" class="logo">胡西恒的个人博客</a>
+    </div>
+    <div class="mobile-navbar-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+    <ul class="mobile-menu-list">
+        <li class="mobile-menu-item">
+            
+            
+            
+            <a class="menu-item-link" href="https://stormheng.github.io/">主页</a>  
+        </li><li class="mobile-menu-item">
+            
+            
+            
+            <a class="menu-item-link" href="https://stormheng.github.io/post/">归档</a>  
+        </li><li class="mobile-menu-item">
+            
+            
+            
+            <a class="menu-item-link" href="https://stormheng.github.io/tags/">标签</a>  
+        </li><li class="mobile-menu-item">
+            
+            
+            
+            <a class="menu-item-link" href="https://stormheng.github.io/categories/">分类</a>  
+        </li><li class="mobile-menu-item">
+            
+            
+            
+            <a class="menu-item-link" href="https://gohugo.io" rel="noopener" target="_blank">
+              友链
+              
+              <i class="iconfont">
+                <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M623.36 272.96 473.216 423.04C467.2 429.056 467.072 438.656 472.896 444.416c0 0-6.72-6.656 1.6 1.6C496.064 467.648 528.64 500.224 528.64 500.224 534.464 506.048 544 505.856 550.016 499.904l150.08-150.144 67.328 66.432c9.024 8.96 27.456 4.544 30.4-8.96 19.968-92.608 46.656-227.52 46.656-227.52 6.848-34.496-16.192-56.704-49.92-49.92 0 0-134.656 26.816-227.328 46.784C560.32 178.048 556.352 182.272 554.752 187.136c-3.2 6.208-3.008 14.208 3.776 20.992L623.36 272.96z"></path>
+  <path d="M841.152 457.152c-30.528 0-54.784 24.512-54.784 54.656l0 274.752L237.696 786.56 237.696 237.696l206.016 0c6.656 0 10.752 0 13.248 0C487.68 237.696 512 213.184 512 182.848 512 152.32 487.36 128 456.96 128L183.04 128C153.216 128 128 152.576 128 182.848c0 3.136 0.256 6.272 0.768 9.28C128.256 195.136 128 198.272 128 201.408l0 639.488c0 0.064 0 0.192 0 0.256 0 0.128 0 0.192 0 0.32 0 30.528 24.512 54.784 54.784 54.784l646.976 0c6.592 0 9.728 0 11.712 0 28.736 0 52.928-22.976 54.464-51.968C896 843.264 896 842.304 896 841.344l0-20.352L896 561.408 896 512.128C896 481.792 871.424 457.152 841.152 457.152z"></path>
+</svg>
+
+              </i>
+            </a>  
+        </li><li class="mobile-menu-item">
+            
+            
+            
+            <a class="menu-item-link" href="https://stormheng.github.io/about/">简介</a>  
+        </li>  
+    </ul>
+</nav>
+
+  
+
+  
+
+  
+
+  <header id="header" class="header container">
+    <div class="logo-wrapper">
+    <a href="/" class="logo">
+    
+      胡西恒的个人博客
+    
+  </a>
+</div>
+
+<nav class="site-navbar">
+    <ul id="menu" class="menu">
+         
+        <li class="menu-item">
+            
+            
+            
+            <a class="menu-item-link" href="https://stormheng.github.io/">主页</a>  
+
+        </li>
+        
+        <li class="menu-item">
+            
+            
+            
+            <a class="menu-item-link" href="https://stormheng.github.io/post/">归档</a>  
+
+        </li>
+        
+        <li class="menu-item">
+            
+            
+            
+            <a class="menu-item-link" href="https://stormheng.github.io/tags/">标签</a>  
+
+        </li>
+        
+        <li class="menu-item">
+            
+            
+            
+            <a class="menu-item-link" href="https://stormheng.github.io/categories/">分类</a>  
+
+        </li>
+        
+        <li class="menu-item">
+            
+            
+            
+            <a class="menu-item-link" href="https://gohugo.io" rel="noopener" target="_blank">
+              友链
+              
+              <i class="iconfont">
+                <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M623.36 272.96 473.216 423.04C467.2 429.056 467.072 438.656 472.896 444.416c0 0-6.72-6.656 1.6 1.6C496.064 467.648 528.64 500.224 528.64 500.224 534.464 506.048 544 505.856 550.016 499.904l150.08-150.144 67.328 66.432c9.024 8.96 27.456 4.544 30.4-8.96 19.968-92.608 46.656-227.52 46.656-227.52 6.848-34.496-16.192-56.704-49.92-49.92 0 0-134.656 26.816-227.328 46.784C560.32 178.048 556.352 182.272 554.752 187.136c-3.2 6.208-3.008 14.208 3.776 20.992L623.36 272.96z"></path>
+  <path d="M841.152 457.152c-30.528 0-54.784 24.512-54.784 54.656l0 274.752L237.696 786.56 237.696 237.696l206.016 0c6.656 0 10.752 0 13.248 0C487.68 237.696 512 213.184 512 182.848 512 152.32 487.36 128 456.96 128L183.04 128C153.216 128 128 152.576 128 182.848c0 3.136 0.256 6.272 0.768 9.28C128.256 195.136 128 198.272 128 201.408l0 639.488c0 0.064 0 0.192 0 0.256 0 0.128 0 0.192 0 0.32 0 30.528 24.512 54.784 54.784 54.784l646.976 0c6.592 0 9.728 0 11.712 0 28.736 0 52.928-22.976 54.464-51.968C896 843.264 896 842.304 896 841.344l0-20.352L896 561.408 896 512.128C896 481.792 871.424 457.152 841.152 457.152z"></path>
+</svg>
+
+              </i>
+            </a>  
+
+        </li>
+        
+        <li class="menu-item">
+            
+            
+            
+            <a class="menu-item-link" href="https://stormheng.github.io/about/">简介</a>  
+
+        </li>
+           
+    </ul>
+</nav>
+  </header>
+
+  <div id="mobile-panel">
+    <main id="main" class="main bg-llight">
+      <div class="content-wrapper">
+        <div id="content" class="content container">
+          <article class="post bg-white">
+    
+    <header class="post-header">
+      <h1 class="post-title">HTML常用标签</h1>
+      
+      <div class="post-meta">
+        <time datetime="2018-12-12" class="post-time">
+          2018-12-12
+        </time>
+        <div class="post-category">
+            <a href="https://stormheng.github.io/categories/html/"> HTML </a>
+            
+          </div>
+        
+
+        
+        
+
+        
+        
+      </div>
+    </header>
+
+    
+    
+
+    
+    <div class="post-content">
+      <blockquote>
+<p>这篇文章主要介绍平时写代码过程中常用的HTML标签、常用的属性以及它们的使用场景，对于标签的分类我是根据自己平时使用习惯来分类的，所以与标准分类可能有些不同。至于其他标签与属性，可以查阅文末的参考链接。</p>
+</blockquote>
+<h3 id="文章标签">文章标签</h3>
+<blockquote>
+<p>主要包含标题标签、段落标签以及换行标签和分割线标签</p>
+</blockquote>
+<h4 id="标题标签">标题标签</h4>
+<pre><code>&lt;h1&gt;-&lt;h6&gt; 
+</code></pre><p><img src="http://image.stormheng.com/image/image-20200602220132141.png" alt="图片"></p>
+<h4 id="段落标签">段落标签</h4>
+<pre><code>&lt;p&gt;用来存放大段文字&lt;/p&gt;
+</code></pre><h4 id="换行标签">换行标签</h4>
+<blockquote>
+<p>单标签，常用来处理文章换行</p>
+</blockquote>
+<pre><code>&lt;br&gt; 
+</code></pre><h4 id="分割线标签">分割线标签</h4>
+<blockquote>
+<p>单标签，常用来将标题与文章内容分隔开</p>
+</blockquote>
+<pre><code>【标签】&lt;hr&gt;
+【属性】
+        size：尺寸，取值单位为 px（像素），可以省略
+        width：宽度，取值单位为px（像素）可以省略或百分比
+        color：颜色，取值自然颜色值
+        align：水平对齐方式，取值：left/center/right
+</code></pre><h4 id="文章示例代码">文章示例代码</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span>&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span>&lt;<span style="color:#f92672">head</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span>	&lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5</span>	&lt;<span style="color:#f92672">title</span>&gt;文章&lt;/<span style="color:#f92672">title</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6</span>&lt;/<span style="color:#f92672">head</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7</span>&lt;<span style="color:#f92672">body</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8</span>	&lt;<span style="color:#f92672">h1</span>&gt;主标题&lt;/<span style="color:#f92672">h1</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9</span>	&lt;<span style="color:#f92672">h2</span>&gt;副标题&lt;/<span style="color:#f92672">h2</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10</span>	&lt;<span style="color:#f92672">hr</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11</span>	&lt;<span style="color:#f92672">p</span>&gt;大段文本大段文本大段文本大段文本大段文本大段文本大段文本大段文本大段文本	&lt;<span style="color:#f92672">br</span>&gt;	  
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12</span>    大段文本大段文本大段文本大段文本大段文本大段文本大段文本&lt;<span style="color:#f92672">br</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13</span>	   大段文本大段文本大段文本大段文本大段文本大段文本大段文本&lt;/<span style="color:#f92672">p</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14</span>	&lt;<span style="color:#f92672">p</span>&gt;大段文本大段文本大段文本大段文本大段文本大段文本&lt;/<span style="color:#f92672">p</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15</span>&lt;/<span style="color:#f92672">body</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16</span>
+</code></pre></div><h3 id="内容标签">内容标签</h3>
+<h4 id="列表标签">列表标签</h4>
+<pre><code>有序列表：ol+li  默认样式：1. 2. 3.
+无序列表：ul+li  默认样式：实心圆点
+描述列表：dl+dt+dd
+</code></pre><h4 id="预格式标签">预格式标签</h4>
+<pre><code>&lt;pre&gt;&lt;/pre&gt;  保留空格换行
+</code></pre><h4 id="图像标签">图像标签</h4>
+<blockquote>
+<p>单标签<!-- raw HTML omitted -->，常用属性有：alt/height/width/src</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>属性值</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>alt</td>
+<td>文字</td>
+<td>图片无法展示时用于说明的文字</td>
+</tr>
+<tr>
+<td>height</td>
+<td>px</td>
+<td>定义图片的高度，只写高度则宽度自适应</td>
+</tr>
+<tr>
+<td>width</td>
+<td>px</td>
+<td>定义图片的宽度，只写宽度则高度自适应</td>
+</tr>
+<tr>
+<td>src</td>
+<td>图片的地址</td>
+<td>指定图片来源</td>
+</tr>
+</tbody>
+</table>
+<p><strong>注意：</strong> 永远不要让图片变形（即同时改变宽度和高度）</p>
+<h5 id="与图片相关的事件">与图片相关的事件</h5>
+<ul>
+<li>事件：onload/onerror
+<ul>
+<li>用于监听图片是否加载成功，加载成功调用onload，不成功调用onerror</li>
+</ul>
+</li>
+<li>代码示例</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span>&lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;dog.png&#34;</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;xxx&#34;</span> <span style="color:#a6e22e">alt</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;dog&#34;</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span>&lt;<span style="color:#f92672">script</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span>    <span style="color:#a6e22e">xxx</span>.<span style="color:#a6e22e">onload</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>() {
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span>        <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;图片加载成功&#34;</span>);
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5</span>    }
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6</span>    <span style="color:#a6e22e">xxx</span>.<span style="color:#a6e22e">onerror</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>() {
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7</span>        <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;图片加载失败&#34;</span>);
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8</span>        <span style="color:#a6e22e">xxx</span>.<span style="color:#a6e22e">src</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;./404.png&#34;</span>; <span style="color:#75715e">//挽救图片
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9</span><span style="color:#75715e"></span>    }
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10</span>&lt;/<span style="color:#f92672">script</span>&gt;
+</code></pre></div><ul>
+<li>图片响应式：max-width:100%</li>
+</ul>
+<h4 id="超链接标签">超链接标签</h4>
+<blockquote>
+<p>对于a标签，重点需要掌握href取值和target常用值(_self/_blank)</p>
+</blockquote>
+<pre><code>【href 的取值】
+    网址
+        1.https://google.com
+        2.http://google.com
+        3.//google.com (无协议网址：自动选择http还是https)
+    路径
+        1./a/b/c 以及 a/b/c
+            注意：如果开启了http服务，则在哪里开启服务那里就是根目录
+        2.index.html 以及 ./index.html
+    锚点
+        href=&quot;#xxx&quot;  xxx为元素id
+    伪协议
+        javascript:代码;
+        点击 a 标签执行代码
+        常用空的代码：href=&quot;javascript: ;&quot;
+        如果href=&quot;&quot;，点击a标签时页面会刷新
+        如果href=&quot;#&quot;，点击a标签时页面会自动滚动到顶部
+    mailto:邮箱
+    tel:手机号
+</code></pre><p>锚点定位（重点）</p>
+<pre><code>步骤一：使用相应的id名标注跳转目标的位置
+&lt;h3 id=&quot;two&quot;&gt;目标&lt;/h3&gt;
+步骤二：&lt;a href=&quot;#two&quot;&gt;&lt;/a&gt; 
+</code></pre><h3 id="表格标签">表格标签</h3>
+<blockquote>
+<p>由table标签定义。</p>
+</blockquote>
+<pre><code>
+【标签】&lt;table&gt;&lt;/table&gt;
+【属性】
+        width ：设置表格的宽度px
+        height：设置表格的高度px
+        align：设置表格的对齐方式，取值: left/center/right
+        border：设置表格边框宽度
+        cellpadding：内边距（单元格边框与内容之间的距离）默认为1px
+        cellspacing：外边距（单元格之间的距离）默认为2px
+        bgcolor：设置表格的背景颜色
+</code></pre><p><img src="http://image.stormheng.com/image/image-20200602111916326.png" alt="一图胜千言"></p>
+<pre><code>&lt;table&gt;&lt;/table&gt;中包含的子元素：
+    【标签】&lt;tr&gt;&lt;/tr&gt; （创建表行）
+        【属性】
+            align：该行内容水平对齐方式，取值: left/center/right
+            valign：该行内容的垂直对齐方式，取值: top/middle/bottom
+            bgcolor：设置表格的背景颜色
+    【标签】&lt;td&gt;&lt;/td&gt; （创建单元格）
+        【属性】
+            align：内容水平对齐方式
+            valign：内容垂直对齐方式
+            width ：宽度
+            height ：高度
+    【标签】&lt;caption&gt;&lt;/caption&gt; （表格标题），必须紧随&lt;table&gt;标签
+    【标签】&lt;th&gt;&lt;/th&gt; （列标题）
+        行标题或列标题，字体有加粗的效果，放在tr中
+    【标签】&lt;thead&gt;&lt;/thead&gt; （表头）
+    【标签】&lt;tbody&gt;&lt;/tbody&gt; 表主体）
+    【标签】&lt;tfoot&gt;&lt;/tfoot&gt; （表尾）
+</code></pre><h4 id="合并单元格重点">合并单元格（重点）</h4>
+<pre><code> 跨行合并：rowspan = &quot;合并单元格的个数&quot;
+
+ 跨列合并：colspan = &quot;合并单元格的个数&quot;
+</code></pre>
+<h5 id="合并单元格三部曲">合并单元格三部曲</h5>
+<pre><code>1.确认跨行还是跨列
+
+2.根据先上后下、先左后右的原则找到目标单元格
+
+3.删除多余的单元格
+</code></pre>
+<h4 id="备注">备注</h4>
+<p>对于复杂的表格，又将表格分为三部分：题头（thead）、正文(tbody)、脚注(tfoot)，其中thead中必须有tr标签</p>
+<h4 id="完整的表格代码">完整的表格代码</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span>&lt;<span style="color:#f92672">table</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span>    &lt;<span style="color:#f92672">caption</span>&gt;标题文本&lt;/<span style="color:#f92672">caption</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span>    &lt;<span style="color:#f92672">thead</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span>        &lt;<span style="color:#f92672">tr</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5</span>            &lt;<span style="color:#f92672">th</span>&gt;姓名&lt;/<span style="color:#f92672">th</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6</span>            &lt;<span style="color:#f92672">th</span>&gt;性别&lt;/<span style="color:#f92672">th</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7</span>        &lt;/<span style="color:#f92672">tr</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8</span>    &lt;/<span style="color:#f92672">thead</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9</span>    &lt;<span style="color:#f92672">tbody</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10</span>        &lt;<span style="color:#f92672">tr</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11</span>            &lt;<span style="color:#f92672">td</span>&gt;张三&lt;/<span style="color:#f92672">td</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12</span>            &lt;<span style="color:#f92672">td</span>&gt;男&lt;/<span style="color:#f92672">td</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13</span>        &lt;/<span style="color:#f92672">tr</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14</span>        &lt;<span style="color:#f92672">tr</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15</span>            &lt;<span style="color:#f92672">td</span>&gt;李四&lt;/<span style="color:#f92672">td</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16</span>            &lt;<span style="color:#f92672">td</span>&gt;女&lt;/<span style="color:#f92672">td</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17</span>        &lt;/<span style="color:#f92672">tr</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18</span>    &lt;/<span style="color:#f92672">tbody</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19</span>    &lt;<span style="color:#f92672">tfoot</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20</span>        &lt;<span style="color:#f92672">tr</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21</span>            &lt;<span style="color:#f92672">td</span>&gt;统计&lt;/<span style="color:#f92672">td</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22</span>            &lt;<span style="color:#f92672">td</span>&gt;分数&lt;/<span style="color:#f92672">td</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23</span>        &lt;/<span style="color:#f92672">tr</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24</span>    &lt;/<span style="color:#f92672">tfoot</span>&gt;
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25</span>&lt;/<span style="color:#f92672">table</span>&gt;
+</code></pre></div><h3 id="表单标签">表单标签</h3>
+<blockquote>
+<p>由form标签定义，将用户输入的数据提交给后台。</p>
+</blockquote>
+<pre><code>【常见属性】
+        action：提交的服务器地址
+        method：表单数据提交的方式，取值： get：明文提交/post：隐式提交
+        name：定义表单名称，JS用到的比较多
+        id： 独一无二的标识
+如：&lt;form action=&quot;url&quot; method=&quot;get/post&quot;&gt; &lt;/form&gt;
+</code></pre><h4 id="input元素">input元素</h4>
+<pre><code>【语法】
+    &lt;input type=&quot;text&quot; value=&quot;hhh&quot;&gt; 
+    #value表示显示在文本框中的值，用户输入的时候需要删除
+</code></pre><pre><code>【主要属性】
+        type：根据不同的type属性值可以创建各种类型的输入字段
+        value：最终提交给服务器的值
+        name：控件的名称，提供给服务器使用，没有name，控件则无法提交
+        id：唯一标识，只能在当前页面使用，服务器不能用
+        disabled：禁用，不能被提交
+</code></pre><h6 id="常用的表单控件">常用的表单控件</h6>
+<pre><code>（1）文本框：&lt;input type=&quot;text&quot;&gt;
+（2）密码框：&lt;input type=&quot;password&quot;&gt;
+    【专有属性】
+        maxlength：限制输入的字符数，取值：数字
+        readonly：设置文本控件只读
+（3）单选按钮：&lt;input type=&quot;radio&quot;&gt;
+（4）复选框：&lt;input type=&quot;checkbox&quot;&gt;
+        【专有属性】
+        checked，设置默认被选中
+（5）提交按钮：&lt;input type=&quot;submit&quot;&gt;
+（6）重置按钮：&lt;input type=&quot;reset&quot;&gt;
+（7）普通按钮：&lt;input type=&quot;button&quot;&gt;
+（8）图片按钮：&lt;input type=&quot;image&quot; src=&quot;&quot;&gt; 
+（9）隐藏域：&lt;input type=&quot;hidden&quot;&gt;
+（10）文件选择框：&lt;input type=&quot;file&quot;&gt;
+</code></pre><h5 id="按钮提交按钮">按钮（提交按钮）</h5>
+<pre><code>&lt;button&gt;内容&lt;/button&gt;
+</code></pre><h5 id="下拉选择框select-和-option">下拉选择框select 和 option</h5>
+<pre><code>&lt;section name=&quot;&quot;&gt;
+  &lt;option value=&quot;&quot; selected&gt;&lt;/option&gt;
+&lt;/section&gt;
+</code></pre><p><strong>注意：</strong> 只要存在selected便表示选中，不管后面的值是什么</p>
+<h4 id="label标签理解">label标签(理解)</h4>
+<p><strong>作用：</strong> 当我们鼠标点击 label标签里面的文字时， 光标会定位到指定的表单里面</p>
+<p><strong>第一种用法：</strong> 用label直接包括input表单(适合单个表单选择)</p>
+<pre><code>&lt;label&gt; 用户名： 
+        &lt;input type=&quot;radio&quot; name=&quot;usename&quot; value=&quot;请输入用户名&quot;&gt;  
+&lt;/label&gt;
+</code></pre><p><strong>第二种用法：</strong> for 属性规定 label 与哪个表单元素绑定。</p>
+<pre><code>&lt;label for=&quot;sex&quot;&gt;男&lt;/label&gt;
+&lt;input type=&quot;radio&quot; name=&quot;sex&quot;  id=&quot;sex&quot;&gt;
+</code></pre><h4 id="textarea控件文本域">textarea控件(文本域)</h4>
+<pre><code>&lt;textarea&gt;多行文本输入框&lt;/textarea&gt;
+
+    cols=&quot;每行中的字符数&quot; rows=&quot;显示的行数&quot;
+
+    用resize: none;来控制文本域不能被用户拉伸，避免破坏页面布局
+</code></pre><h3 id="全局属性">全局属性</h3>
+<blockquote>
+<p>所有标签都具有的属性</p>
+</blockquote>
+<p><img src="http://image.stormheng.com/image/image-20200602111949596.png" alt="image-20200602111949596"></p>
+<h3 id="参考链接">参考链接</h3>
+<ul>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/HTML5">HTML5-MDN</a></li>
+</ul>
+
+    </div>
+
+    
+    
+
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          <a href="https://stormheng.github.io/tags/html/">html</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/%E9%A6%96%E7%AF%87%E5%8D%9A%E5%AE%A2/">
+            
+            <i class="iconfont">
+              <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M691.908486 949.511495l75.369571-89.491197c10.963703-12.998035 10.285251-32.864502-1.499144-44.378743L479.499795 515.267417 757.434875 204.940602c11.338233-12.190647 11.035334-32.285311-0.638543-44.850487l-80.46666-86.564541c-11.680017-12.583596-30.356378-12.893658-41.662889-0.716314L257.233596 494.235404c-11.332093 12.183484-11.041474 32.266891 0.657986 44.844348l80.46666 86.564541c1.772366 1.910513 3.706415 3.533476 5.750981 4.877077l306.620399 321.703933C662.505829 963.726242 680.945807 962.528973 691.908486 949.511495z"></path>
+</svg>
+
+            </i>
+            <span class="prev-text nav-default">博客来由</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        
+      </nav>
+    </footer>
+  </article>
+
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+    
+
+  
+
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="icon-links">
+    
+  
+    <a href="mailto:stormheng@email.com" rel="me noopener" class="iconfont"
+      title="email" >
+      <svg class="icon" viewBox="0 0 1451 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="36" height="36">
+  <path d="M664.781909 681.472759 0 97.881301C0 3.997201 71.046997 0 71.046997 0L474.477909 0 961.649408 0 1361.641813 0C1361.641813 0 1432.688811 3.997201 1432.688811 97.881301L771.345323 681.472759C771.345323 681.472759 764.482731 685.154773 753.594283 688.65053L753.594283 688.664858C741.602731 693.493018 729.424896 695.068979 718.077952 694.839748 706.731093 695.068979 694.553173 693.493018 682.561621 688.664858L682.561621 688.65053C671.644501 685.140446 664.781909 681.472759 664.781909 681.472759L664.781909 681.472759ZM718.063616 811.603883C693.779541 811.016482 658.879232 802.205449 619.10784 767.734955 542.989056 701.759633 0 212.052267 0 212.052267L0 942.809523C0 942.809523 0 1024 83.726336 1024L682.532949 1024 753.579947 1024 1348.948139 1024C1432.688811 1024 1432.688811 942.809523 1432.688811 942.809523L1432.688811 212.052267C1432.688811 212.052267 893.138176 701.759633 817.019477 767.734955 777.248 802.205449 742.347691 811.03081 718.063616 811.603883L718.063616 811.603883Z"></path>
+</svg>
+
+    </a>
+  
+    <a href="https://github.com/stormheng" rel="me noopener" class="iconfont"
+      title="github"  target="_blank"
+      >
+      <svg class="icon" style="" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="36" height="36">
+  <path d="M512 12.672c-282.88 0-512 229.248-512 512 0 226.261333 146.688 418.133333 350.08 485.76 25.6 4.821333 34.986667-11.008 34.986667-24.618667 0-12.16-0.426667-44.373333-0.64-87.04-142.421333 30.890667-172.458667-68.693333-172.458667-68.693333C188.672 770.986667 155.008 755.2 155.008 755.2c-46.378667-31.744 3.584-31.104 3.584-31.104 51.413333 3.584 78.421333 52.736 78.421333 52.736 45.653333 78.293333 119.850667 55.68 149.12 42.581333 4.608-33.109333 17.792-55.68 32.426667-68.48-113.706667-12.8-233.216-56.832-233.216-253.013333 0-55.893333 19.84-101.546667 52.693333-137.386667-5.76-12.928-23.04-64.981333 4.48-135.509333 0 0 42.88-13.738667 140.8 52.48 40.96-11.392 84.48-17.024 128-17.28 43.52 0.256 87.04 5.888 128 17.28 97.28-66.218667 140.16-52.48 140.16-52.48 27.52 70.528 10.24 122.581333 5.12 135.509333 32.64 35.84 52.48 81.493333 52.48 137.386667 0 196.693333-119.68 240-233.6 252.586667 17.92 15.36 34.56 46.762667 34.56 94.72 0 68.522667-0.64 123.562667-0.64 140.202666 0 13.44 8.96 29.44 35.2 24.32C877.44 942.592 1024 750.592 1024 524.672c0-282.752-229.248-512-512-512"></path>
+</svg>
+
+    </a>
+
+
+<a href="https://stormheng.github.io/index.xml" rel="noopener alternate" type="application/rss&#43;xml"
+    class="iconfont" title="rss" target="_blank">
+    <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="30" height="30">
+  <path d="M819.157333 1024C819.157333 574.592 449.408 204.8 0 204.8V0c561.706667 0 1024 462.293333 1024 1024h-204.842667zM140.416 743.04a140.8 140.8 0 0 1 140.501333 140.586667A140.928 140.928 0 0 1 140.074667 1024C62.72 1024 0 961.109333 0 883.626667s62.933333-140.544 140.416-140.586667zM678.784 1024h-199.04c0-263.210667-216.533333-479.786667-479.744-479.786667V345.173333c372.352 0 678.784 306.517333 678.784 678.826667z"></path>
+</svg>
+
+  </a>
+  
+</div>
+
+<div class="copyright">
+
+    <span class="copyright-year">
+    &copy;
+    
+      2018 -
+    2020
+    <span class="heart">
+      
+      <i class="iconfont">
+        <svg class="icon" viewBox="0 0 1025 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="14" height="14">
+  <path d="M1000.1 247.9c-15.5-37.3-37.6-70.6-65.7-98.9-54.4-54.8-125.8-85-201-85-85.7 0-166 39-221.4 107.4C456.6 103 376.3 64 290.6 64c-75.1 0-146.5 30.4-201.1 85.6-28.2 28.5-50.4 61.9-65.8 99.3-16 38.8-24 79.9-23.6 122.2 0.7 91.7 40.1 177.2 108.1 234.8 3.1 2.6 6 5.1 8.9 7.8 14.9 13.4 58 52.8 112.6 102.7 93.5 85.5 209.9 191.9 257.5 234.2 7 6.1 15.8 9.5 24.9 9.5 9.2 0 18.1-3.4 24.9-9.5 34.5-30.7 105.8-95.9 181.4-165 74.2-67.8 150.9-138 195.8-178.2 69.5-57.9 109.6-144.4 109.9-237.3 0.1-42.5-8-83.6-24-122.2z"
+   fill="#8a8a8a"></path>
+</svg>
+
+      </i>
+    </span><span class="author">
+        胡西恒
+        
+      </span></span>
+
+    
+     
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont">
+        
+        <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="35" height="35">
+  <path d="M510.866688 227.694839 95.449397 629.218702l235.761562 0-2.057869 328.796468 362.40389 0L691.55698 628.188232l241.942331-3.089361L510.866688 227.694839zM63.840492 63.962777l894.052392 0 0 131.813095L63.840492 195.775872 63.840492 63.962777 63.840492 63.962777zM63.840492 63.962777"></path>
+</svg>
+
+      </i>
+    </div>
+  </div>
+  
+<script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+
+
+
+
+<script type="text/javascript" src="/js/main.638251f4230630f0335d8c6748e53a96f94b72670920b60c09a56fdc8bece214.js" integrity="sha256-Y4JR9CMGMPAzXYxnSOU6lvlLcmcJILYMCaVv3Ivs4hQ=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
