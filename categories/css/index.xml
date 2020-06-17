@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSS on 胡西恒的个人博客</title>
+    <link>https://stormheng.github.io/categories/css/</link>
+    <description>Recent content in CSS on 胡西恒的个人博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 16 Dec 2018 07:42:34 +0800</lastBuildDate>
+    
+	<atom:link href="https://stormheng.github.io/categories/css/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CSS基础总结</title>
+      <link>https://stormheng.github.io/post/css%E5%9F%BA%E7%A1%80%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Sun, 16 Dec 2018 07:42:34 +0800</pubDate>
+      
+      <guid>https://stormheng.github.io/post/css%E5%9F%BA%E7%A1%80%E6%80%BB%E7%BB%93/</guid>
+      <description>这篇文章主要是对CSS基础知识的一个概括，后续会慢慢补充其他知识 CSS介绍 CSS：Cascading Style Sheets 层叠样式表 层叠指什么（分为三类） 样式</description>
+    </item>
+    
+  </channel>
+</rss>

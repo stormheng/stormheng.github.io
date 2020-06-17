@@ -43,6 +43,168 @@
     </item>
     
     <item>
+      <title>CSS基础总结</title>
+      <link>https://stormheng.github.io/post/css%E5%9F%BA%E7%A1%80%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Sun, 16 Dec 2018 07:42:34 +0800</pubDate>
+      
+      <guid>https://stormheng.github.io/post/css%E5%9F%BA%E7%A1%80%E6%80%BB%E7%BB%93/</guid>
+      
+        <description>&lt;blockquote&gt;
+&lt;p&gt;这篇文章主要是对CSS基础知识的一个概括，后续会慢慢补充其他知识&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;css介绍&#34;&gt;CSS介绍&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;CSS：Cascading Style Sheets  层叠样式表&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;层叠指什么分为三类&#34;&gt;层叠指什么（分为三类）&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;样式层叠：可以多次对同一选择器进行样式声明&lt;/li&gt;
+&lt;li&gt;选择器层叠：可以用不同选择器对同一元素进行样式声明&lt;/li&gt;
+&lt;li&gt;文件层叠：可以用多个文件进行层叠&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;css语法&#34;&gt;CSS语法&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;语法1：样式语法&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;选择器 {
+  属性名: 属性值;
+    /*注释*/
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;语法2：@语法&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;三个常用的语法&lt;/span&gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;注意事项&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; @&lt;span style=&#34;color:#66d9ef&#34;&gt;charset必须放在第一行&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;前两个&lt;/span&gt;@&lt;span style=&#34;color:#66d9ef&#34;&gt;语句必须以分号&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;;&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;结尾&lt;/span&gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3&lt;/span&gt;@&lt;span style=&#34;color:#66d9ef&#34;&gt;charset&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;UTF-8&amp;#34;&lt;/span&gt;;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4&lt;/span&gt;@&lt;span style=&#34;color:#66d9ef&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;url&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;2&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;css&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5&lt;/span&gt;@&lt;span style=&#34;color:#66d9ef&#34;&gt;media&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;min-width&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;100px&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;and&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;max-width&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;200px&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; {
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;6&lt;/span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;语法一&lt;/span&gt;
+&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;7&lt;/span&gt;}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;border调试法&#34;&gt;Border调试法&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;写CSS的过程中可能会遇到很多问题，这个时候可以使用Border调试法进行调试&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;【步骤】
+  ① 怀疑某个元素样式有问题
+  ② 给这个元素加上border
+  ③ border没出现：说明选择器错了或者语法错了
+  ④ border出现：看看其他样式代码是否书写正确
+  ⑤ bug解决删掉border
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;文档流元素在文档中的排列&#34;&gt;文档流（元素在文档中的排列）&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;【文档流动方向】
+    inline 元素从左到右，到达最右边才会换行，且换行会使元素中断
+    block 元素从上到下，每一个都另起一行
+    inline-block 也是从左到右
+	
+【元素宽度】
+    inline 宽度为内部inline元素的和，不能用width指定
+    block 默认自动计算宽度，可用width指定，默认宽度为auto，不是100%
+	注意：宽度最好别写100%
+    inline-block 结合前两者特点，可用width
+	
+【元素高度】
+    inline 高度由line-height间接确定（与字体有关，字体不一致可能高度不一样），跟height无关
+    block 高度由内部文档流元素决定，可以设height
+    inline-block跟block类似，可以设置height
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;overflow溢出内容大于容器&#34;&gt;overflow溢出：内容大于容器&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;当内容的宽度或高度大于容器时会溢出
+可以用overflow来设置是否显示滚动条
+    auto是灵活设置
+    scroll是永远显示
+    hidden是直接隐藏溢出部分
+    visible是直接显示溢出部分（默认）
+overflow可以分为overflow-x和overflow-y（不建议使用）
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;脱离文档流&#34;&gt;脱离文档流&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;【两种方式】
+    float
+    position：absolute/fixed
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;两种盒模型&#34;&gt;两种盒模型&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;分别是
+    content-box内容盒：内容就是盒子的边界
+    border-box边框盒：边框才是盒子的边界
+公式
+    content-box ：width = 内容宽度
+    border-box ：width = 内容宽度+padding+border
+那个好用：border-box
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;http://image.stormheng.com/image/image-20200617133415482.png&#34; alt=&#34;两种盒模型&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;margin合并只在上下方向存在左右不存在&#34;&gt;margin合并：只在上下方向存在，左右不存在&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;哪些情况会合并
+    父子margin合并
+    兄弟margin合并
+如何阻止合并
+    父子合并可以用给父元素添加padding/border或者给父元素添加：overflow：hidden
+    兄弟合并符合预期，可以用inline-block消除
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;css样式&#34;&gt;CSS样式&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;1.内联样式(行内样式)
+   特点：将CSS样式定义在HTML开始标记中
+   语法：&amp;lt;div style=&amp;quot;样式声明1；样式声明2&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+     
+2.内部样式
+   在网页的头元素中增加一对&amp;lt;style&amp;gt;标记
+   语法： 
+   	&amp;lt;head&amp;gt;
+     &amp;lt;style&amp;gt;
+        /*注释*/
+        选择器 {
+        	属性名: 属性值;
+        }
+        ...
+     &amp;lt;/style&amp;gt;
+    &amp;lt;/head&amp;gt;
+    
+3.外部样式
+   在网页中引入样式表文件
+     &amp;lt;head&amp;gt;
+        &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;**.css&amp;quot;&amp;gt;
+     &amp;lt;/head&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;选择器主要讲伪类选择器&#34;&gt;选择器(主要讲伪类选择器)&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;作用：匹配元素不同的状态的选择器
+语法：
+   所有的伪类都是以：作为开始
+   选择器：伪类选择器{样式声明}
+1.连接伪类
+ :link 匹配元素尚未访问的状态
+ :visited 匹配元素访问过的状态
+2.动态伪类
+ :hover 匹配鼠标悬停在元素上时的状态
+ :active 匹配元素被激活时的状态（超链接，文本框，密码框点击的时候）
+ :focus 匹配元素获取焦点时的状态（文本框和密码框）
+3.选择器的优先级
+  权值：标识当前选择器的重要程度，权值越大优先级越高。
+  元素选择器：1
+  类选择器：10
+  伪类选择器：10
+  ID选择择器：100
+  内联样式：1000
+  选择器的权值加到一起，大的优先
+  权值相同，以后定义的为主
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;光标&#34;&gt;光标&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;改变鼠标悬停在元素上时，鼠标的状态&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;属性：cursor
+取值：
+  1.default: 默认
+  2.pointer: 小手
+  3.crosshair: +
+  4.text: I
+  5.wait: 等待
+  6.help: 帮助
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;参考链接&#34;&gt;参考链接&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://caniuse.com/#tables&#34;&gt;caniuse&amp;ndash;查询样式是否被浏览器支持&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Web/CSS/At-rule&#34;&gt;@规则-MDN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://css-tricks.com/&#34;&gt;CSS小技巧&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.zhangxinxu.com/wordpress/category/css/page/33/&#34;&gt;张鑫旭CSS博客&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/25808995&#34;&gt;深入理解 CSS：字体度量、line-height 和 vertical-align&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>HTML常用标签</title>
       <link>https://stormheng.github.io/post/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE/</link>
       <pubDate>Wed, 12 Dec 2018 21:03:15 +0800</pubDate>
